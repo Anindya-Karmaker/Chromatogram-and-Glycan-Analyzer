@@ -262,7 +262,7 @@ class Ui_MainWindow(object):
         self.tab3.setLayout(self.tab3_layout)
     
         # Add tab2 to the tabWidget
-        self.tabWidget.addTab(self.tab3, "Glycan Mass Finder")
+        # self.tabWidget.addTab(self.tab3, "Glycan Mass Finder")
         # Menubar and other main window elements
         MainWindow.setCentralWidget(self.centralwidget)
         
@@ -435,7 +435,7 @@ class Ui_MainWindow(object):
             ax.tick_params(axis='y', labelsize=10)
     
             # Display gridlines for y-axis
-            ax.grid(True, which='both', axis='y', linestyle='--', linewidth=0.7, alpha=0.7)
+            # ax.grid(True, which='both', axis='y', linestyle='--', linewidth=0.7, alpha=0.7)
     
             # Annotate each bar with its height value
             for bar in bars:
